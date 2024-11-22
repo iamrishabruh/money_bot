@@ -1,0 +1,30 @@
+# General Configuration
+logging:
+  level: "INFO"
+  file: "bot.log"
+
+# YouTube Data API Configuration
+youtube:
+  client_secrets_file: "credentials/client_secret.json"
+  api_service_name: "youtube"
+  api_version: "v3"
+  scopes:
+    - "https://www.googleapis.com/auth/youtube.upload"
+
+# Twitter API Configuration
+twitter:
+  api_key: "YOUR_TWITTER_API_KEY"
+  api_secret_key: "YOUR_TWITTER_API_SECRET_KEY"
+  access_token: "YOUR_TWITTER_ACCESS_TOKEN"
+  access_token_secret: "YOUR_TWITTER_ACCESS_TOKEN_SECRET"
+
+# TikTok API Configuration (if available and compliant)
+tiktok:
+  api_key: "YOUR_TIKTOK_API_KEY"
+  api_secret_key: "YOUR_TIKTOK_API_SECRET_KEY"
+  access_token: "YOUR_TIKTOK_ACCESS_TOKEN"
+
+# Stock Media API Configuration (optional)
+stock_media:
+  pexels_api_key: "YOUR_PEXELS_API_KEY"
+  unsplash_api_key: "YOUR_UNSPLASH_API_KEY"
